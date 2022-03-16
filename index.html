@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <!-- Intro -->
+  <div class="intro">
+    <h1>Привет, меня зовут Александр</h1>
+    <img src="img/intro/clouds.png" alt="clouds" class="clouds">
+    <img src="img/intro/mountains-background.png" alt="mountains-background" class="mountains-background">
+    <img src="img/intro/mountains-middle.png" alt="mountains-middle" class="mountains-middle">
+    <img src="img/intro/mountains-front.png" alt="mountains-front" class="mountains-front">
+    <img src="img/intro/forest.png" alt="forest" class="forest">
+  </div>
+  <!-- /Intro -->
+
+  <!-- Story -->
+  <div class="story">
+
+    <div class="story__header">
+      <h2 class="scroll-animation-header">Это мой сайт резюме, на котором я расскажу о себе и своем пути в сфере frontend</h2>
+    </div>
+
+      <div class="story__body">
+
+        <div class="story__body__item img scroll-animation">
+          <img src="img/story/man-using-computer.png" alt="man-using-computer">
+        </div>
+        <div class="story__body__item scroll-animation">
+          <h4>Почему именно WEB?</h4>
+          <p>Все началось с видео в рекомендацих: мне было интересно, как создают 
+            современные сайты, и что представляют из себя современные WEB - приложения.</p>
+          <p>Это меня привлекло и затянуло. А через пару дней уже пробовал верстать 
+            первый сайт.</p>
+        </div>
+        <div class="story__body__item scroll-animation">
+          <p>После создания скелета сайта требовалось придать ему форму: задать стили, 
+            расположение, анимацию, с чем помог CSS 3.</p>
+        </div>
+        <div class="story__body__item img scroll-animation">
+          <img src="img/story/painter.png" alt="painter">
+        </div>
+        <div class="story__body__item img scroll-animation">
+          <img src="img/story/desktop.png" alt="desktop">
+        </div>
+        <div class="story__body__item scroll-animation">
+          <p>Но самым важным и долгим этапом обучения стало изучение 
+            основных концепций JavaScript, как языка.</p>
+          <p>Кроме того, нужно было понять, как это позволяет оживить страницу и 
+            взаимодействовать с DOM-деревом HTML документа.</p>
+        </div>
+
+      </div>
+  </div>
+  <!-- /Story -->
+
+  <!-- Hobby -->
+  <div class="hobby">
+      <div class="overlay">
+        <h3>Немного о хобби</h3>
+        <div class="info">
+          <section class="scroll-animation">
+            <h4>Оттачивание навыков</h4>
+            <p>Помимо изучения основ HTML, CSS и JavaScript, также интерес 
+              вызывает оттачивание навыков использования JS при решении 
+              различных маленьких задач. С чем помогает Codewars.</p>
+          </section>
+
+          <section class="scroll-animation">
+            <h4>Habr</h4>
+            <p>Помогает оставаться в курсе актуальных новостей IT и электроники,
+              а также подкидывает интересные статьи на досуге.</p>
+          </section>
+        </div>
+      </div>
+  </div>
+  <!-- /Hobby -->
+
+  <!-- Skills -->
+  <div class="skills">
+    <h3>Мои навыки</h3>
+
+    <section>
+
+      <div class="card scroll-animation-card">
+        <div class="card__wrapper">
+          <div class="top__card html5">
+            <img src="img/skill_cards/html5.png" alt="">
+          </div>
+          <div class="bottom__card">
+            <p>HTML 5</p>
+            <div class="content">
+              <p>Структура DOM дерева</p>
+              <p>Знаниче основных тегов</p>
+              <p>Семантические элементы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card scroll-animation-card">
+        <div class="card__wrapper">
+          <div class="top__card css">
+            <img src="img/skill_cards/css.png" alt="">
+          </div>
+          <div class="bottom__card">
+            <p>CSS 3</p>
+            <div class="content">
+              <p>Использование flexbox</p>
+              <p>Анимации и трансформации</p>
+              <p>Основы БЭМ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card scroll-animation-card">
+        <div class="card__wrapper">
+          <div class="top__card js">
+            <img src="img/skill_cards/js.png" alt="">
+          </div>
+          <div class="bottom__card">
+            <p>JavaScript</p>
+            <div class="content">
+              <p>Работа с DOM структурой</p>
+              <p>Замыкания</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <!-- /Skills -->
+
+  <!-- Example -->
+  <div class="example">
+    <h3>Пример выполненной работы</h3>
+    <div class="frame__wrapper">
+      <iframe src="example/activebox/index.html" frameborder="0"></iframe>
+    </div>
+    
+  </div>
+  <!-- Example -->
+  <script src="js/app.js"></script>
+</body>
+</html>
